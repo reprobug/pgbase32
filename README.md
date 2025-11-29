@@ -38,7 +38,7 @@ SELECT base32_decode_to_text('NBSWY3DP', 'LATIN1');
 -- Valid Base32 strings
 SELECT base32_is_valid('JBSWY3DPEBLW64TMMQQQ===='); -- true
 SELECT base32_is_valid('NBSWY3DP'); -- true
-SELECT base32_is_valid('abcdefg234567'); -- true (case insensitive)
+SELECT base32_is_valid('NBSWY3Dp'); -- true (case insensitive)
 SELECT base32_is_valid('MZXW6YTBOI======'); -- true
 
 -- Invalid Base32 strings
