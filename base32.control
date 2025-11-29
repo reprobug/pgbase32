@@ -1,0 +1,4 @@
+comment = 'Base32 encoder/decoder (RFC 4648, TOTP compatible)'
+default_version = '1.0'
+relocatable = true
+module_pathname = '$libdir/base32'
